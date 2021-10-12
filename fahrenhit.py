@@ -14,11 +14,11 @@ def calculate_fahrenhit():
 
     # process
     try:
-        celsius_integer = int(celsius_string)
-        fahrenhit_integer = (9 / 5) * celsius_integer + 32
+        celsius_number = float(celsius_string)
+        fahrenhit_number = (9 / 5) * celsius_number + 32
 
         # output
-        print("{0}°C is equal to {1}°F.".format(celsius_integer, fahrenhit_integer))
+        print("{0}°C is equal to {1}°F.".format(celsius_number, fahrenhit_number))
 
     except Exception:
         # output
